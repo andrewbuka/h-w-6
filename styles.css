@@ -15,4 +15,46 @@
    text-decoration: double underline;
  }
 
+ /* Styles for wrapping blocks */
+
+ .charlotte-wrapper,
+ .tiramisu-wrapper,
+ .cookies-wrapper {
+   margin: 150px auto;
+   width: 55%;
+   position: relative;
+ }
+
+ .charlotte-wrapper {
+   background-color: #CEECF6;
+   border-top: 3px solid #859EA8;
+   border-right: 3px solid #859EA8;
+   border-bottom: 3px dashed #859EA8;
+   border-left: 3px dashed #859EA8;
+ }
+
+ .tiramisu-wrapper {
+   background-color: #EFEFEF;
+   border-top: 3px solid #6F6F6F;
+   border-right: 3px solid #6F6F6F;
+   border-bottom: 3px dashed #6F6F6F;
+   border-left: 3px dashed #6F6F6F;
+ }
+
+ .cookies-wrapper {
+   background-color: #BBD5BA;
+   border-top: 3px solid #5D7D5C;
+   border-right: 3px solid #5D7D5C;
+   border-bottom: 3px dashed #5D7D5C;
+   border-left: 3px dashed #5D7D5C;
+ }
+
+ /* Styles for inner recipe boxes */
+
+ .charlotte-recipe-box,
+ .tiramisu-recipe-box,
+ .cookies-recipe-box {
+   margin: 50px;
+ }
+
  
