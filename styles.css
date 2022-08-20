@@ -175,4 +175,39 @@
    margin-bottom: 15px;
  }
 
- 
+ /* Styles for images */
+
+ .charlotte-image {
+   width: 325px;
+   height: 225px;
+   border: 5px solid #33555F;
+   position: absolute;
+   top: -112.5px;
+   right: -162.5px;
+ }
+
+ .tiramisu-image {
+   width: 325px;
+   height: 225px;
+   border: 5px solid #5B5B5B;
+   position: absolute;
+   top: -112.5px;
+   right: -162.5px;
+ }
+
+ .cookies-image {
+   width: 325px;
+   height: 225px;
+   border: 5px solid #325433;
+   position: absolute;
+   top: -112.5px;
+   right: -162.5px;
+ }
+
+ /* Styles for comments */
+
+ .comment {
+   font-style: italic;
+   text-decoration: overline;
+   text-align: center;
+ }
